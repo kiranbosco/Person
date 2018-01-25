@@ -22,6 +22,7 @@ public class PersonApplication  implements CommandLineRunner{
 		List<Persons>list=PersonsRepository.findyByLastName("kumar",
 				new PageRequest(0, 14, Direction.ASC, "lastName"));
 		list.forEach(System.out::println);*/
+		//
 		
 	}
 
